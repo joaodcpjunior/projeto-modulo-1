@@ -65,8 +65,6 @@ public class Programa {
                     escolhaCarro = leia.nextInt();
                     leia.nextLine();
 
-                    carros.remove(escolhaCarro - 1);
-
                     System.out.println("\nEntre com a data de retirada do veículo (no formato: aaaa-MM-dd): ");
                     String dataLocacao = leia.nextLine();
                     LocalDate startDate = LocalDate.parse(dataLocacao);
